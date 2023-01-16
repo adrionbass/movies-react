@@ -5,7 +5,7 @@ import styles from "./MovieDetail.module.css"
 export function MovieDetail(){
     const imgURL ="https://image.tmdb.org/t/p/w500" + movie.poster_path
     return (
-        <div>
+        <div className={styles.detailContainer} >
             <img src={imgURL} alt={ movie.title }/>
             <p><strong>Title: </strong>{ movie.title}</p>
             { movie.genres.map(genre => genre.name).join(', ') }
