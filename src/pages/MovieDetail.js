@@ -8,6 +8,7 @@ export function MovieDetail(){
         <div>
             <img src={imgURL} alt={ movie.title }/>
             <p><strong>Title: </strong>{ movie.title}</p>
+            { movie.genres.map(genre => genre.name).join(', ') }
             <p><strong>Description: </strong>{ movie.overview }</p>
         </div>
     )
