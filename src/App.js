@@ -1,14 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header.js'
-import MoviesGrid from "./components/MoviesGrid.js";
 import {
   BrowserRouter as Router,
-  Switch,
   Routes,
   Route,
   Link,
-  BrowserRouter
 } from "react-router-dom";
 import { LandingPage } from './pages/LandingPage';
 import { MovieDetail } from './pages/MovieDetail';
@@ -23,14 +20,12 @@ function App() {
         </header>
         <main>
           <Routes>
-            <Route path="/" element={<LandingPage />} />
-            <Route path="/movies/:movieId" element={<MovieDetail />}>Movie</Route>
+            <Route exact path="/" element={<LandingPage />} />
+            <Route exact path="/movies/:movieId" element={<MovieDetail />}>Movie</Route>
           </Routes>
         </main>
       </Router>
 
-
-      {/* <MoviesGrid /> */}
     </div>
   );
 }
