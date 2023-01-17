@@ -10,7 +10,7 @@ import {
 import { LandingPage } from './pages/LandingPage';
 import { MovieDetail } from './pages/MovieDetail';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
 
@@ -29,5 +29,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
