@@ -1,9 +1,8 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,7 +10,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   
     color: #fff;
-    background-color: #1a1a1a;
+   /*  background-color: #1a1a1a; */
     background: radial-gradient(circle at center,#1a1546,#040411 40%);
     height: 100vh;
     width: 100%;

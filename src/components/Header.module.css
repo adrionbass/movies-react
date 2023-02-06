@@ -1,12 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Yellowtail:400);
 
 .headerContainer {
-    padding: 15px 0 0 0;
+    padding: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
 }
 
 .Header {
     font-family: 'Yellowtail';
     font-size: 4rem;
+    letter-spacing: 5px;;
     text-shadow:
         0 0 7px #fff,
         0 0 10px #fff,
