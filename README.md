@@ -1,4 +1,4 @@
-# #React #Responsive #Hooks #API #CSS-Grid #Loader
+# #React #Responsive #Hooks #API #CSS-Grid
 
 
 ## Movie catalog developed in React
